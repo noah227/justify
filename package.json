@@ -17,8 +17,11 @@
     "files": [
         "dist"
     ],
-    "author": "",
-    "license": "ISC",
+    "author": "Noah Young",
+    "license": "MIT",
+    "repository": {
+        "url": "https://github.com/noah227/justify"
+    },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^26.0.1",
         "@rollup/plugin-json": "^6.1.0",
