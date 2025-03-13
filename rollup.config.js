@@ -26,11 +26,11 @@ const createExport = (input, output, plugins) => ({
 })
 
 /**
- * 
+ *
  * @param {{input: string, output: string, target: "esm" | "cjs", userTerser?: boolean}[]} buildConfigList
  */
 const createBuild = (buildConfigList) => {
-    return buildConfigList.reduce((buildList, {input, output, target, userTerser}) => { 
+    return buildConfigList.reduce((buildList, {input, output, target, userTerser}) => {
         buildList.push([
             input, {
                 file: output,
@@ -45,6 +45,6 @@ const createBuild = (buildConfigList) => {
 
 module.exports = createBuild([
     {input: "./src/index.ts", output: "./dist/index.js", target: "esm"},
-    // {input: "./src/index.ts", output: "./dist/index.min.js", target: "esm", userTerser: true},
-    // {input: "./src/index.ts", output: "./dist/index.cjs.js", target: "cjs"}
+    {input: "./src/index.ts", output: "./dist/index.min.js", target: "esm", userTerser: true},
+    {input: "./src/index.ts", output: "./dist/index.cjs.js", target: "cjs"}
 ])

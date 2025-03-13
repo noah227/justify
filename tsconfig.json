@@ -15,7 +15,8 @@
         "declaration": true,
         "declarationDir": "dist",
         "types": [
-            "@types/node"
+            "@types/node",
+            "vitest/importMeta"
         ],
         "paths": {
             "@/*": [

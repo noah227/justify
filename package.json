@@ -1,14 +1,18 @@
 {
-    "name": "common-rollup-ts-starter",
-    "version": "1.0.0",
-    "description": "自用rollup打包typescript用例",
+    "name": "@cynario/justify",
+    "version": "0.1.0",
+    "description": "Justify string within specific width and fillChars",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "npx vitest",
         "build": "rollup -c rollup.config.js"
     },
-    "keywords": [],
+    "keywords": [
+        "ljust",
+        "rjust",
+        "center"
+    ],
     "files": [
         "dist"
     ],
@@ -22,6 +26,7 @@
         "@rollup/plugin-typescript": "^11.1.6",
         "@types/node": "^20.14.10",
         "rollup": "^4.18.1",
-        "tslib": "^2.6.3"
+        "tslib": "^2.6.3",
+        "vitest": "^3.0.7"
     }
 }
