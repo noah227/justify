@@ -1,6 +1,6 @@
 # justify
 
-> Python style string justify.
+> Pythonic string justify.
 
 ## install
 
@@ -11,7 +11,7 @@ npm i @cynario/justify
 ## usage
 
 ```js
-import {center, ljust, rjust} from "./index"
+import {center, ljust, rjust} from "@cynario/justify"
 // import {justify} from "./index"
 // justify.ljust
 // ...
