@@ -12,7 +12,7 @@ npm i @cynario/justify
 
 ```js
 import {center, ljust, rjust} from "@cynario/justify"
-// import {justify} from "./index"
+// import {justify} from "@cynario/justify"
 // justify.ljust
 // ...
 
