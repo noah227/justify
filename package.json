@@ -1,7 +1,7 @@
 {
     "name": "@cynario/justify",
     "version": "0.1.0",
-    "description": "Justify string with specific width and fillChars",
+    "description": "Pythonic string justify",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
     "scripts": {
