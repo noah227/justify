@@ -13,7 +13,7 @@ if (import.meta.vitest) {
     it("center", () => {
         expect(center(s, 8, "*")).toBe(`*${s}**`)
     })
-    it("center", () => {
+    it("center symmetrical", () => {
         expect(center(s, 9, "*")).toBe(`**${s}**`)
     })
 }
